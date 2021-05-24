@@ -1,0 +1,19 @@
+name: ota_update
+description: A Flutter plugin providing ota updates for Android and iOS, with download progress (Android only)
+version: 2.4.1
+homepage: https://github.com/4Q-s-r-o/ota_update
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.10.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: sk.fourq.otaupdate
+        pluginClass: OtaUpdatePlugin
